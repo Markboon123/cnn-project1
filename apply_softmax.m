@@ -7,8 +7,7 @@ function outarray = apply_softmax(inarray)
 %   Out(1,1,k) = exp(In(1,1,k) - alpha) / sum over j of exp(In(1,1,j) - alpha)
 %   with alpha = max over k of In(1,1,k).
 %
-%   Subtracting alpha does not change the result (the factor exp(-alpha)
-%   cancels between numerator and denominator), but it makes the largest
+%   Subtracting alpha does not change the result but it makes the largest
 %   exponent 0, so exp() cannot overflow to Inf for large scores.
 
 alpha   = max(inarray(:));
