@@ -1,0 +1,6 @@
+# course data files, see README
+*.mat
+
+# matlab junk
+*.asv
+*.autosave
