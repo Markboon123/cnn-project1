@@ -1,14 +1,7 @@
-%% DEMO1_VERIFY_LAYERS  Show that each layer function computes the right thing.
-%   Part 1: small examples that can be checked by hand (handout + lecture).
-%   Part 2: each layer run on its own, fed the EXPECTED output of the
-%           previous layer from debuggingTest.mat, so an error would show
-%           up in the layer that causes it instead of propagating.
-%   Part 3: the whole 18-layer network run end-to-end from imrgb.
-%   Part 4: why the handout insists on convolution, not correlation.
+%% DEMO1_VERIFY_LAYERS 
+%  
 %
-%   Needs CNNparameters.mat, debuggingTest.mat and cifar10testdata.mat in
-%   the current folder.
-
+%   
 clear;
 load('CNNparameters.mat');                    % layertypes, filterbanks, biasvectors
 load('debuggingTest.mat');                    % imrgb, layerResults
