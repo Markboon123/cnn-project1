@@ -1,5 +1,5 @@
 function outarray = apply_imnormalize(inarray)
-%APPLY_IMNORMALIZE  CNN layer 1: image normalization.
+%APPLY_IMNORMALIZE  CNN layer 1
 %   outarray = apply_imnormalize(inarray)
 %   inarray  : N x M x 3 uint8 RGB image
 %   outarray : N x M x 3 double
